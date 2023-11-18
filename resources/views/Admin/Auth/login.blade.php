@@ -4,7 +4,7 @@
 
     <form method="POST" action="{{ route('admin.login.post') }}">
         @csrf
-
+        <h4 class="text-center text-5xl text-gray-600 ">Admin</h4>
         <!-- Email Address -->
         <div>
             <x-input-label for="email" :value="__('Email')" />

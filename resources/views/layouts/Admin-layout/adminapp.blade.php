@@ -46,28 +46,29 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{asset('assets/images/favicon-32x32.png')}}" type="image/png" />
+    <link rel="icon" href="{{ asset('assets/images/favicon-32x32.png') }}" type="image/png" />
     <!--plugins-->
-    {{asset('assets/css/bootstrap-extended.css')}}
-    <link href="{{asset('assets/plugins/simplebar/css/simplebar.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css')}}" rel="stylesheet" />
+    {{ asset('assets/css/bootstrap-extended.css') }}
+    <link href="{{ asset('assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/plugins/vectormap/jquery-jvectormap-2.0.2.css')}}" rel="stylesheet" />
     <!-- Bootstrap CSS -->
-    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/bootstrap-extended.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/icons.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/bootstrap-extended.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap-icons.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap-icons.css') }}">
 
     <!-- loader-->
-    <link href="{{asset('assets/css/pace.min.css')}}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/pace.min.css') }}" rel="stylesheet" />
 
 
     <!--Theme Styles-->
-    <link href="{{asset('assets/css/dark-theme.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/light-theme.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/semi-dark.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/header-colors.css')}}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/dark-theme.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/light-theme.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/semi-dark.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/header-colors.css') }}" rel="stylesheet" />
 
     <title>Skodash - Bootstrap 5 Admin Template</title>
 </head>
@@ -110,8 +111,8 @@
                                 href="javascript:;">Action</a>
                             <a class="dropdown-item" href="javascript:;">Another action</a>
                             <a class="dropdown-item" href="javascript:;">Something else here</a>
-                            <div class="dropdown-divider"></div> <a class="dropdown-item"
-                                href="javascript:;">Separated link</a>
+                            <div class="dropdown-divider"></div> <a class="dropdown-item" href="javascript:;">Separated
+                                link</a>
                         </div>
                     </div>
                 </div>
@@ -225,14 +226,23 @@
 
 
     <!-- Bootstrap bundle JS -->
-    <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <!--plugins-->
-    <script src="{{asset('assets/js/jquery.min.js')}}"></script>
-    <script src="{{asset('assets/plugins/simplebar/js/simplebar.min.js')}}"></script>
-    <script src="{{asset('assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js')}}"></script>
-    <script src="{{asset('assets/js/pace.min.js')}}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js') }}"></script>
+    <script src="{{ asset('assets/js/pace.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js')}}"></script>
+    <script src="{{ asset('assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
+    <script src="{{ asset('assets/plugins/apexcharts-bundle/js/apexcharts.min.js')}}"></script>
+    <script src="{{ asset('assets/plugins/chartjs/chart.min.js')}}"></script>
     <!--app-->
-    <script src="{{asset('assets/js/app.js')}}"></script>
+    <script src="{{ asset('assets/js/app.js') }}"></script>
+    <script src="{{ asset('assets/js/index.js')}}"></script>
+    <script>
+        new PerfectScrollbar(".best-product")
+        new PerfectScrollbar(".top-sellers-list")
+     </script>
 
 
 </body>
