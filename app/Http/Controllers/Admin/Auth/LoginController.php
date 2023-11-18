@@ -23,15 +23,15 @@ class LoginController extends Controller
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255'],
             'password' => ['required', Rules\Password::defaults()],
         ]);
-       
+
         // $user = Admin::create([
         //     'name' => 'Super Admin',
         //     'email' => $request->email,
         //     'password' => Hash::make($request->password),
         // ]);
         $user = ([
-                 'email' => $request->email,
-                'password' => Hash::make($request->password),
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
         ]);
 
         Auth::guard('admin')->attempt(['email' => $request->email, 'password' => $request->password]);
@@ -44,5 +44,4 @@ class LoginController extends Controller
         Auth::guard('admin')->logout();
         return redirect('/admin');
     }
-    
 }
