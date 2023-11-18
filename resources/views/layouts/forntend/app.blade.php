@@ -6,7 +6,7 @@
      <meta http-equiv="x-ua-compatible" content="ie=edge" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
  
-     <title>Ekka - Ecommerce HTML Template + Admin Dashboard.</title>
+     <title>Multi Vendor Ecomerce</title>
      <meta name="keywords"
          content="apparel, catalog, clean, ecommerce, ecommerce HTML, electronics, fashion, html eCommerce, html store, minimal, multipurpose, multipurpose ecommerce, online store, responsive ecommerce template, shops" />
      <meta name="description" content="Best ecommerce html template for single and multi vendor store.">
@@ -54,8 +54,6 @@
      @include('layouts.forntend.partial.cart')
      <!-- ekka Cart End -->
  
-
-
      <!-- Category Sidebar start -->
      @include('layouts.forntend.partial.category_sidebar')
  
@@ -96,7 +94,7 @@
  
      <!-- Recent Purchase Popup  -->
      <div class="recent-purchase">
-         <img src="assets/images/product-image/1.jpg" alt="payment image">
+         <img src="{{asset('forntend/assets/images/product-image/1.jpg')}}" alt="payment image">
          <div class="detail">
              <p>Someone in new just bought</p>
              <h6>stylish baby shoes</h6>

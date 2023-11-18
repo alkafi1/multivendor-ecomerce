@@ -103,8 +103,8 @@
                     <!-- Ec Header Logo Start -->
                     <div class="align-self-center">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="Site Logo" /><img
-                                    class="dark-logo" src="assets/images/logo/dark-logo.png" alt="Site Logo"
+                            <a href="index.html"><img src="{{asset('forntend/assets/images/logo/logo.png')}}" alt="Site Logo" /><img
+                                    class="dark-logo" src="{{asset('forntend/assets/images/logo/dark-logo.png')}}" alt="Site Logo"
                                     style="display: none;" /></a>
                         </div>
                     </div>
@@ -164,8 +164,8 @@
                 <!-- Ec Header Logo Start -->
                 <div class="col">
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo.png" alt="Site Logo" /><img
-                                class="dark-logo" src="assets/images/logo/dark-logo.png" alt="Site Logo"
+                        <a href="index.html"><img src="{{asset('forntend/assets/images/logo/logo.png')}}" alt="Site Logo" /><img
+                                class="dark-logo" src="{{asset('forntend/assets/images/logo/dark-logo.png')}}" alt="Site Logo"
                                 style="display: none;" /></a>
                     </div>
                 </div>
@@ -250,16 +250,16 @@
                                     <li>
                                         <ul class="ec-main-banner w-100">
                                             <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img
-                                                        class="img-responsive" src="assets/images/menu-banner/1.jpg"
+                                                        class="img-responsive" src="{{asset('forntend/assets/images/menu-banner/1.jpg')}}"
                                                         alt=""></a></li>
                                             <li><a class="p-0" href="shop-left-sidebar-col-4.html"><img
-                                                        class="img-responsive" src="assets/images/menu-banner/2.jpg"
+                                                        class="img-responsive" src="{{asset('forntend/assets/images/menu-banner/2.jpg')}}"
                                                         alt=""></a></li>
                                             <li><a class="p-0" href="shop-right-sidebar-col-3.html"><img
-                                                        class="img-responsive" src="assets/images/menu-banner/3.jpg"
+                                                        class="img-responsive" src="{{asset('forntend/assets/images/menu-banner/3.jpg')}}"
                                                         alt=""></a></li>
                                             <li><a class="p-0" href="shop-right-sidebar-col-4.html"><img
-                                                        class="img-responsive" src="assets/images/menu-banner/4.jpg"
+                                                        class="img-responsive" src="{{asset('forntend/assets/images/menu-banner/4.jpg')}}"
                                                         alt=""></a></li>
                                         </ul>
                                     </li>
@@ -517,7 +517,7 @@
                                 </ul>
                             </li>
                             <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive"
-                                        src="assets/images/menu-banner/1.jpg" alt=""></a>
+                                        src="{{asset('forntend/assets/images/menu-banner/1.jpg')}}" alt=""></a>
                             </li>
                         </ul>
                     </li>

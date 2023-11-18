@@ -84,9 +84,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/6_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/6_1.jpg')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/6_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/6_2.jpg')}}')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <span class="percentage">20%</span>
@@ -122,13 +122,13 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/6_1.jpg"
-                                                                data-src-hover="assets/images/product-image/6_1.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/6_1.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/6_1.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#e8c2ff;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/6_2.jpg"
-                                                                data-src-hover="assets/images/product-image/6_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/6_2.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/6_2.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#9cfdd5;"></span></a></li>
                                                     </ul>
@@ -157,9 +157,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/7_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/7_1.jpg')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/7_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/7_2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <span class="flags">
@@ -197,13 +197,13 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/7_1.jpg"
-                                                                data-src-hover="assets/images/product-image/7_1.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/7_1.jpg')}}')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/7_1.jpg')}}')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#01f1f1;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/7_2.jpg"
-                                                                data-src-hover="assets/images/product-image/7_2.jpg"
+                                                                data-src="assets/images/product-image/7_2.jpg')}}')}}"
+                                                                data-src-hover="assets/images/product-image/7_2.jpg')}}')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#b89df8;"></span></a></li>
                                                     </ul>
@@ -232,9 +232,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/1_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/1_1.jpg')}}')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/1_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/1_2.jpg')}}')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <a href="#" class="quickview" data-link-action="quickview"
@@ -269,23 +269,23 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/1_1.jpg"
-                                                                data-src-hover="assets/images/product-image/1_1.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/1_1.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/1_1.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#90cdf7;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/1_2.jpg"
-                                                                data-src-hover="assets/images/product-image/1_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/1_2.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/1_2.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#ff3b66;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/1_3.jpg"
-                                                                data-src-hover="assets/images/product-image/1_3.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/1_3.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/1_3.jpg')}}"
                                                                 data-tooltip="Green"><span
                                                                     style="background-color:#ffc476;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/1_4.jpg"
-                                                                data-src-hover="assets/images/product-image/1_4.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/1_4.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/1_4.jpg')}}"
                                                                 data-tooltip="Sky Blue"><span
                                                                     style="background-color:#1af0ba;"></span></a></li>
                                                     </ul>
@@ -310,9 +310,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/2_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/2_1.jpg')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/2_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/2_2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <span class="flags">
@@ -350,8 +350,8 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/2_1.jpg"
-                                                                data-src-hover="assets/images/product-image/2_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/2_1.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/2_2.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#fdbf04;"></span></a></li>
                                                     </ul>
@@ -366,9 +366,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/3_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/3_1.jpg')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/3_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/3_2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <span class="percentage">15%</span>
@@ -404,23 +404,23 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/3_1.jpg"
-                                                                data-src-hover="assets/images/product-image/3_1.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/3_1.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/3_1.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#75e3ff;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/3_2.jpg"
-                                                                data-src-hover="assets/images/product-image/3_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/3_2.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/3_2.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#11f7d8;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/3_3.jpg"
-                                                                data-src-hover="assets/images/product-image/3_3.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/3_3.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/3_3.jpg')}}"
                                                                 data-tooltip="Green"><span
                                                                     style="background-color:#acff7c;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/3_5.jpg"
-                                                                data-src-hover="assets/images/product-image/3_5.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/3_5.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/3_5.jpg')}}"
                                                                 data-tooltip="Sky Blue"><span
                                                                     style="background-color:#e996fa;"></span></a></li>
                                                     </ul>
@@ -472,23 +472,23 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/4_1.jpg"
-                                                                data-src-hover="assets/images/product-image/4_1.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/4_1.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/4_1.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#ebbf60;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/4_2.jpg"
-                                                                data-src-hover="assets/images/product-image/4_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/4_2.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/4_2.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#b4fc57;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/4_3.jpg"
-                                                                data-src-hover="assets/images/product-image/4_3.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/4_3.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/4_3.jpg')}}"
                                                                 data-tooltip="Green"><span
                                                                     style="background-color:#2ea1cd;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/4_4.jpg"
-                                                                data-src-hover="assets/images/product-image/4_4.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/4_4.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/4_4.jpg')}}"
                                                                 data-tooltip="Sky Blue"><span
                                                                     style="background-color:#c1a1fd;"></span></a></li>
                                                     </ul>
@@ -503,9 +503,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/5_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/5_1.jpg')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/5_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/5_2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <span class="flags">
@@ -543,13 +543,13 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/5_1.jpg"
-                                                                data-src-hover="assets/images/product-image/5_1.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/5_1.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/5_1.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#9e9e9e;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/5_2.jpg"
-                                                                data-src-hover="assets/images/product-image/5_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/5_2.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/5_2.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#eb8e76;"></span></a></li>
                                                     </ul>
@@ -576,9 +576,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/8_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/8_1.jpg')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/8_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/8_2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <span class="percentage">35%</span>
@@ -617,18 +617,18 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/8_2.jpg"
-                                                                data-src-hover="assets/images/product-image/8_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/8_2.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/8_2.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#e9dddd;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/8_3.jpg"
-                                                                data-src-hover="assets/images/product-image/8_3.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/8_3.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/8_3.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#ffd5cb;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/8_4.jpg"
-                                                                data-src-hover="assets/images/product-image/8_4.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/8_4.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/8_4.jpg')}}"
                                                                 data-tooltip="Green"><span
                                                                     style="background-color:#92e4fd;"></span></a></li>
                                                     </ul>
@@ -652,9 +652,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/6_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/6_1.jpg')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/6_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/6_2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <span class="percentage">20%</span>
@@ -690,13 +690,13 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/6_1.jpg"
-                                                                data-src-hover="assets/images/product-image/6_1.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/6_1.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/6_1.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#e8c2ff;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/6_2.jpg"
-                                                                data-src-hover="assets/images/product-image/6_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/6_2.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/6_2.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#9cfdd5;"></span></a></li>
                                                     </ul>
@@ -724,9 +724,9 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/7_1.jpg"
+                                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/7_1.jpg')}}"
                                                         alt="Product" />
-                                                    <img class="hover-image" src="assets/images/product-image/7_2.jpg"
+                                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/7_2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                                 <span class="percentage">20%</span>
@@ -765,13 +765,13 @@
                                                     <span class="ec-pro-opt-label">Color</span>
                                                     <ul class="ec-opt-swatch ec-change-img">
                                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/7_1.jpg"
-                                                                data-src-hover="assets/images/product-image/7_1.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/7_1.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/7_1.jpg')}}"
                                                                 data-tooltip="Gray"><span
                                                                     style="background-color:#01f1f1;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
-                                                                data-src="assets/images/product-image/7_2.jpg"
-                                                                data-src-hover="assets/images/product-image/7_2.jpg"
+                                                                data-src="{{asset('forntend/assets/images/product-image/7_2.jpg')}}"
+                                                                data-src-hover="{{asset('forntend/assets/images/product-image/7_2.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#b89df8;"></span></a></li>
                                                     </ul>
@@ -2461,7 +2461,7 @@
                     <div class="row">
                         <div class="banner-block col-lg-6 col-md-12 margin-b-30" data-animation="slideInRight">
                             <div class="bnr-overlay">
-                                <img src="assets/images/banner/2.jpg" alt="" />
+                                <img src="{{asset('forntend/assets/images/banner/2.jpg')}}" alt="" />
                                 <div class="banner-text">
                                     <span class="ec-banner-stitle">New Arrivals</span>
                                     <span class="ec-banner-title">mens<br> Sport shoes</span>
@@ -2474,7 +2474,7 @@
                         </div>
                         <div class="banner-block col-lg-6 col-md-12" data-animation="slideInLeft">
                             <div class="bnr-overlay">
-                                <img src="assets/images/banner/3.jpg" alt="" />
+                                <img src="{{asset('forntend/assets/images/banner/3.jpg')}}" alt="" />
                                 <div class="banner-text">
                                     <span class="ec-banner-stitle">New Trending</span>
                                     <span class="ec-banner-title">Smart<br> watches</span>
@@ -2512,27 +2512,27 @@
                 <div class="col-lg-3">
                     <ul class="ec-cat-tab-nav nav">
                         <li class="cat-item"><a class="cat-link active" data-bs-toggle="tab" href="#tab-cat-1">
-                                <div class="cat-icons"><img class="cat-icon" src="assets/images/icons/cat_1.png"
+                                <div class="cat-icons"><img class="cat-icon" src="{{asset('forntend/assets/images/icons/cat_1.png')}}"
                                         alt="cat-icon"><img class="cat-icon-hover"
-                                        src="assets/images/icons/cat_1_1.png" alt="cat-icon"></div>
+                                        src="{{asset('forntend/assets/images/icons/cat_1_1.png')}}" alt="cat-icon"></div>
                                 <div class="cat-desc"><span>Clothes</span><span>440 Products</span></div>
                             </a></li>
                         <li class="cat-item"><a class="cat-link" data-bs-toggle="tab" href="#tab-cat-2">
-                                <div class="cat-icons"><img class="cat-icon" src="assets/images/icons/cat_2.png"
+                                <div class="cat-icons"><img class="cat-icon" src="{{asset('forntend/assets/images/icons/cat_2.png')}}"
                                         alt="cat-icon"><img class="cat-icon-hover"
-                                        src="assets/images/icons/cat_2_1.png" alt="cat-icon"></div>
+                                        src="{{asset('forntend/assets/images/icons/cat_2_1.png')}}" alt="cat-icon"></div>
                                 <div class="cat-desc"><span>Watches</span><span>510 Products</span></div>
                             </a></li>
                         <li class="cat-item"><a class="cat-link" data-bs-toggle="tab" href="#tab-cat-3">
-                                <div class="cat-icons"><img class="cat-icon" src="assets/images/icons/cat_3.png"
+                                <div class="cat-icons"><img class="cat-icon" src="{{asset('forntend/assets/images/icons/cat_3.png')}}"
                                         alt="cat-icon"><img class="cat-icon-hover"
-                                        src="assets/images/icons/cat_3_1.png" alt="cat-icon"></div>
+                                        src="{{asset('forntend/assets/images/icons/cat_3_1.png')}}" alt="cat-icon"></div>
                                 <div class="cat-desc"><span>Bags</span><span>620 Products</span></div>
                             </a></li>
                         <li class="cat-item"><a class="cat-link" data-bs-toggle="tab" href="#tab-cat-4">
-                                <div class="cat-icons"><img class="cat-icon" src="assets/images/icons/cat_4.png"
+                                <div class="cat-icons"><img class="cat-icon" src="{{asset('forntend/assets/images/icons/cat_4.png')}}"
                                         alt="cat-icon"><img class="cat-icon-hover"
-                                        src="assets/images/icons/cat_4_1.png" alt="cat-icon"></div>
+                                        src="{{asset('forntend/assets/images/icons/cat_4_1.png')}}" alt="cat-icon"></div>
                                 <div class="cat-desc"><span>Shoes</span><span>320 Products</span></div>
                             </a></li>
                     </ul>
@@ -2545,7 +2545,7 @@
                         <!-- 1st Category tab end -->
                         <div class="tab-pane fade show active" id="tab-cat-1">
                             <div class="row">
-                                <img src="assets/images/cat-banner/1.jpg" alt="" />
+                                <img src="{{asset('forntend/assets/images/cat-banner/1.jpg')}}" alt="" />
                             </div>
                             <span class="panel-overlay">
                                 <a href="shop-left-sidebar-col-3.html" class="btn btn-primary">View All</a>
@@ -2554,7 +2554,7 @@
                         <!-- 1st Category tab end -->
                         <div class="tab-pane fade" id="tab-cat-2">
                             <div class="row">
-                                <img src="assets/images/cat-banner/2.jpg" alt="" />
+                                <img src="{{asset('forntend/assets/images/cat-banner/2.jpg')}}" alt="" />
                             </div>
                             <span class="panel-overlay">
                                 <a href="shop-left-sidebar-col-3.html" class="btn btn-primary">View All</a>
@@ -2564,7 +2564,7 @@
                         <!-- 3rd Category tab start -->
                         <div class="tab-pane fade" id="tab-cat-3">
                             <div class="row">
-                                <img src="assets/images/cat-banner/3.jpg" alt="" />
+                                <img src="{{asset('forntend/assets/images/cat-banner/3.jpg')}}" alt="" />
                             </div>
                             <span class="panel-overlay">
                                 <a href="shop-left-sidebar-col-3.html" class="btn btn-primary">View All</a>
@@ -2574,7 +2574,7 @@
                         <!-- 4th Category tab start -->
                         <div class="tab-pane fade" id="tab-cat-4">
                             <div class="row">
-                                <img src="assets/images/cat-banner/4.jpg" alt="" />
+                                <img src="{{asset('forntend/assets/images/cat-banner/4.jpg')}}" alt="" />
                             </div>
                             <span class="panel-overlay">
                                 <a href="shop-left-sidebar-col-3.html" class="btn btn-primary">View All</a>
@@ -2608,7 +2608,7 @@
                                 <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
                                     <div class="ec-fs-pro-image">
                                         <a href="product-left-sidebar.html" class="image"><img class="main-image"
-                                                src="assets/images/product-image/1_1.jpg" alt="Product" /></a>
+                                                src="{{asset('forntend/assets/images/product-image/1_1.jpg')}}" alt="Product" /></a>
                                         <a href="#" class="quickview" data-link-action="quickview"
                                             title="Quick view" data-bs-toggle="modal"
                                             data-bs-target="#ec_quickview_modal"><i class="fi-rr-eye"></i></a>
@@ -2650,7 +2650,7 @@
                                 <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
                                     <div class="ec-fs-pro-image">
                                         <a href="product-left-sidebar.html" class="image"><img class="main-image"
-                                                src="assets/images/product-image/3_1.jpg" alt="Product" /></a>
+                                                src="{{asset('forntend/assets/images/product-image/3_1.jpg')}}" alt="Product" /></a>
                                         <a href="#" class="quickview" data-link-action="quickview"
                                             title="Quick view" data-bs-toggle="modal"
                                             data-bs-target="#ec_quickview_modal"><i class="fi-rr-eye"></i></a>
@@ -2705,7 +2705,7 @@
                                 <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
                                     <div class="ec-fs-pro-image">
                                         <a href="product-left-sidebar.html" class="image"><img class="main-image"
-                                                src="assets/images/product-image/8_1.jpg" alt="Product" /></a>
+                                                src="{{asset('forntend/assets/images/product-image/8_1.jpg')}}" alt="Product" /></a>
                                         <a href="#" class="quickview" data-link-action="quickview"
                                             title="Quick view" data-bs-toggle="modal"
                                             data-bs-target="#ec_quickview_modal"><i class="fi-rr-eye"></i></a>
@@ -2746,7 +2746,7 @@
                                 <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
                                     <div class="ec-fs-pro-image">
                                         <a href="product-left-sidebar.html" class="image"><img class="main-image"
-                                                src="assets/images/product-image/10_1.jpg" alt="Product" /></a>
+                                                src="{{asset('forntend/assets/images/product-image/10_1.jpg')}}" alt="Product" /></a>
                                         <a href="#" class="quickview" data-link-action="quickview"
                                             title="Quick view" data-bs-toggle="modal"
                                             data-bs-target="#ec_quickview_modal"><i class="fi-rr-eye"></i></a>
@@ -2808,7 +2808,7 @@
                     <div class="ec-vendor-card">
                         <div class="ec-vendor-detail">
                             <div class="ec-vendor-avtar">
-                                <img src="assets/images/vendor/2.jpg" alt="vendor img">
+                                <img src="{{asset('forntend/assets/images/vendor/2.jpg')}}" alt="vendor img">
                             </div>
                             <div class="ec-vendor-info">
                                 <a href="catalog-single-vendor.html" class="name">Marvelus</a>
@@ -2827,19 +2827,19 @@
                         </div>
                         <div class="ec-vendor-prod">
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/1_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/1_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/2_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/2_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/3_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/3_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/4_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/4_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                         </div>
@@ -2849,7 +2849,7 @@
                     <div class="ec-vendor-card">
                         <div class="ec-vendor-detail">
                             <div class="ec-vendor-avtar">
-                                <img src="assets/images/vendor/3.jpg" alt="vendor img">
+                                <img src="{{asset('forntend/assets/images/vendor/3.jpg')}}" alt="vendor img">
                             </div>
                             <div class="ec-vendor-info">
                                 <a href="catalog-single-vendor.html" class="name">Oreva Fashion</a>
@@ -2868,19 +2868,19 @@
                         </div>
                         <div class="ec-vendor-prod">
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/5_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/5_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/6_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/6_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/7_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/7_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/8_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/8_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                         </div>
@@ -2890,7 +2890,7 @@
                     <div class="ec-vendor-card">
                         <div class="ec-vendor-detail">
                             <div class="ec-vendor-avtar">
-                                <img src="assets/images/vendor/4.jpg" alt="vendor img">
+                                <img src="{{asset('forntend/assets/images/vendor/4.jpg')}}" alt="vendor img">
                             </div>
                             <div class="ec-vendor-info">
                                 <a href="catalog-single-vendor.html" class="name">Cenva Art</a>
@@ -2909,19 +2909,19 @@
                         </div>
                         <div class="ec-vendor-prod">
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/9_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/9_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/10_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/10_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/11_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/11_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/12_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/12_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                         </div>
@@ -2931,7 +2931,7 @@
                     <div class="ec-vendor-card">
                         <div class="ec-vendor-detail">
                             <div class="ec-vendor-avtar">
-                                <img src="assets/images/vendor/5.jpg" alt="vendor img">
+                                <img src="{{asset('forntend/assets/images/vendor/5.jpg')}}" alt="vendor img">
                             </div>
                             <div class="ec-vendor-info">
                                 <a href="catalog-single-vendor.html" class="name">Neon Fashion</a>
@@ -2950,19 +2950,19 @@
                         </div>
                         <div class="ec-vendor-prod">
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/13_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/13_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/14_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/14_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/15_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/15_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                             <div class="ec-prod-img">
-                                <a href="product-left-sidebar.html"><img src="assets/images/product-image/16_1.jpg"
+                                <a href="product-left-sidebar.html"><img src="{{asset('forntend/assets/images/product-image/16_1.jpg')}}"
                                         alt="vendor img"></a>
                             </div>
                         </div>
@@ -3035,7 +3035,7 @@
                 <div class="col-xl-6 col-lg-7 col-md-7 col-sm-7 align-self-center ec-offer-content">
                     <h2 class="ec-offer-title">Sunglasses</h2>
                     <h3 class="ec-offer-stitle" data-animation="slideInDown">Super Offer</h3>
-                    <span class="ec-offer-img" data-animation="zoomIn"><img src="assets/images/offer-image/1.png"
+                    <span class="ec-offer-img" data-animation="zoomIn"><img src="{{asset('forntend/assets/images/offer-image/1.png')}}"
                             alt="offer image" /></span>
                     <span class="ec-offer-desc">Acetate Frame Sunglasses</span>
                     <span class="ec-offer-price">$40.00 Only</span>
@@ -3066,9 +3066,9 @@
                         <div class="ec-pro-image-outer">
                             <div class="ec-pro-image">
                                 <a href="product-left-sidebar.html" class="image">
-                                    <img class="main-image" src="assets/images/product-image/9_1.jpg"
+                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/9_1.jpg')}}"
                                         alt="Product" />
-                                    <img class="hover-image" src="assets/images/product-image/9_2.jpg"
+                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/9_2.jpg')}}"
                                         alt="Product" />
                                 </a>
                                 <span class="flags">
@@ -3105,18 +3105,18 @@
                                     <span class="ec-pro-opt-label">Color</span>
                                     <ul class="ec-opt-swatch ec-change-img">
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/9_1.jpg"
-                                                data-src-hover="assets/images/product-image/9_1.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/9_1.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/9_1.jpg')}}"
                                                 data-tooltip="Orange"><span
                                                     style="background-color:#74c7ff;"></span></a></li>
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/9_2.jpg"
-                                                data-src-hover="assets/images/product-image/9_2.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/9_2.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/9_2.jpg')}}"
                                                 data-tooltip="Green"><span style="background-color:#7af6ff;"></span></a>
                                         </li>
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/9_3.jpg"
-                                                data-src-hover="assets/images/product-image/9_3.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/9_3.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/9_3.jpg')}}"
                                                 data-tooltip="Sky Blue"><span
                                                     style="background-color:#85ffeb;"></span></a></li>
                                     </ul>
@@ -3143,9 +3143,9 @@
                         <div class="ec-pro-image-outer">
                             <div class="ec-pro-image">
                                 <a href="product-left-sidebar.html" class="image">
-                                    <img class="main-image" src="assets/images/product-image/11_1.jpg"
+                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/11_1.jpg')}}"
                                         alt="Product" />
-                                    <img class="hover-image" src="assets/images/product-image/11_2.jpg"
+                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/11_2.jpg')}}"
                                         alt="Product" />
                                 </a>
                                 <span class="flags">
@@ -3181,23 +3181,23 @@
                                     <span class="ec-pro-opt-label">Color</span>
                                     <ul class="ec-opt-swatch ec-change-img">
                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/11_1.jpg"
-                                                data-src-hover="assets/images/product-image/11_1.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/11_1.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/11_1.jpg')}}"
                                                 data-tooltip="Gray"><span style="background-color:#dba4ff;"></span></a>
                                         </li>
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/11_2.jpg"
-                                                data-src-hover="assets/images/product-image/11_2.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/11_2.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/11_2.jpg')}}"
                                                 data-tooltip="Orange"><span
                                                     style="background-color:#ff4a77;"></span></a></li>
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/11_3.jpg"
-                                                data-src-hover="assets/images/product-image/11_3.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/11_3.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/11_3.jpg')}}"
                                                 data-tooltip="Green"><span style="background-color:#c9ff55;"></span></a>
                                         </li>
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/11_4.jpg"
-                                                data-src-hover="assets/images/product-image/11_4.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/11_4.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/11_4.jpg')}}"
                                                 data-tooltip="Sky Blue"><span
                                                     style="background-color:#ffcc5e;"></span></a></li>
                                     </ul>
@@ -3211,9 +3211,9 @@
                         <div class="ec-pro-image-outer">
                             <div class="ec-pro-image">
                                 <a href="product-left-sidebar.html" class="image">
-                                    <img class="main-image" src="assets/images/product-image/12_1.jpg"
+                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/12_1.jpg')}}"
                                         alt="Product" />
-                                    <img class="hover-image" src="assets/images/product-image/12_2.jpg"
+                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/12_2.jpg')}}"
                                         alt="Product" />
                                 </a>
                                 <span class="percentage">5%</span>
@@ -3290,9 +3290,9 @@
                         <div class="ec-pro-image-outer">
                             <div class="ec-pro-image">
                                 <a href="product-left-sidebar.html" class="image">
-                                    <img class="main-image" src="assets/images/product-image/13_1.jpg"
+                                    <img class="main-image" src="{{asset('forntend/assets/images/product-image/13_1.jpg')}}"
                                         alt="Product" />
-                                    <img class="hover-image" src="assets/images/product-image/13_2.jpg"
+                                    <img class="hover-image" src="{{asset('forntend/assets/images/product-image/13_2.jpg')}}"
                                         alt="Product" />
                                 </a>
                                 <a href="#" class="quickview" data-link-action="quickview" title="Quick view"
@@ -3326,23 +3326,23 @@
                                     <span class="ec-pro-opt-label">Color</span>
                                     <ul class="ec-opt-swatch ec-change-img">
                                         <li class="active"><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/13_1.jpg"
-                                                data-src-hover="assets/images/product-image/13_1.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/13_1.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/13_1.jpg')}}"
                                                 data-tooltip="Gray"><span style="background-color:#deffa4;"></span></a>
                                         </li>
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/13_2.jpg"
-                                                data-src-hover="assets/images/product-image/13_2.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/13_2.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/13_2.jpg')}}"
                                                 data-tooltip="Orange"><span
                                                     style="background-color:#ffcdbe;"></span></a></li>
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/13_3.jpg"
-                                                data-src-hover="assets/images/product-image/13_3.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/13_3.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/13_3.jpg')}}"
                                                 data-tooltip="Green"><span style="background-color:#ff94df;"></span></a>
                                         </li>
                                         <li><a href="#" class="ec-opt-clr-img"
-                                                data-src="assets/images/product-image/13_4.jpg"
-                                                data-src-hover="assets/images/product-image/13_4.jpg"
+                                                data-src="{{asset('forntend/assets/images/product-image/13_4.jpg')}}"
+                                                data-src-hover="{{asset('forntend/assets/images/product-image/13_4.jpg')}}"
                                                 data-tooltip="Sky Blue"><span
                                                     style="background-color:#dd9bfc;"></span></a></li>
                                     </ul>
@@ -3377,7 +3377,7 @@
                             <i class="fi-rr-quote-right top"></i>
                             <div class="ec-test-inner">
                                 <div class="ec-test-img"><img alt="testimonial" title="testimonial"
-                                        src="assets/images/testimonial/1.jpg" /></div>
+                                        src="{{asset('forntend/assets/images/testimonial/1.jpg')}}" /></div>
                                 <div class="ec-test-content">
                                     <div class="ec-test-desc">Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -3400,7 +3400,7 @@
                             <i class="fi-rr-quote-right top"></i>
                             <div class="ec-test-inner">
                                 <div class="ec-test-img"><img alt="testimonial" title="testimonial"
-                                        src="assets/images/testimonial/2.jpg" /></div>
+                                        src="{{asset('forntend/assets/images/testimonial/2.jpg')}}" /></div>
                                 <div class="ec-test-content">
                                     <div class="ec-test-desc">Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -3423,7 +3423,7 @@
                             <i class="fi-rr-quote-right top"></i>
                             <div class="ec-test-inner">
                                 <div class="ec-test-img"><img alt="testimonial" title="testimonial"
-                                        src="assets/images/testimonial/3.jpg" /></div>
+                                        src="{{asset('forntend/assets/images/testimonial/3.jpg')}}" /></div>
                                 <div class="ec-test-content">
                                     <div class="ec-test-desc">Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -3458,7 +3458,7 @@
                     <ul id="ec-brand-slider">
                         <li class="ec-brand-item" data-animation="zoomIn">
                             <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/1.png" /></a></div>
+                                        src="{{asset('forntend/assets/images/brand-image/1.png')}}" /></a></div>
                         </li>
                         <li class="ec-brand-item" data-animation="zoomIn">
                             <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
@@ -3466,27 +3466,27 @@
                         </li>
                         <li class="ec-brand-item" data-animation="zoomIn">
                             <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/3.png" /></a></div>
+                                        src="{{asset('forntend/assets/images/brand-image/3.png')}}" /></a></div>
                         </li>
                         <li class="ec-brand-item" data-animation="zoomIn">
                             <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/4.png" /></a></div>
+                                        src="{{asset('forntend/assets/images/brand-image/4.png')}}" /></a></div>
                         </li>
                         <li class="ec-brand-item" data-animation="zoomIn">
                             <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/5.png" /></a></div>
+                                        src="{{asset('forntend/assets/images/brand-image/5.png')}}" /></a></div>
                         </li>
                         <li class="ec-brand-item" data-animation="zoomIn">
                             <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/6.png" /></a></div>
+                                        src="{{asset('forntend/assets/images/brand-image/6.png')}}" /></a></div>
                         </li>
                         <li class="ec-brand-item" data-animation="zoomIn">
                             <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/7.png" /></a></div>
+                                        src="{{asset('forntend/assets/images/brand-image/7.png')}}" /></a></div>
                         </li>
                         <li class="ec-brand-item" data-animation="zoomIn">
                             <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/8.png" /></a></div>
+                                        src="{{asset('forntend/assets/images/brand-image/8.png')}}" /></a></div>
                         </li>
                     </ul>
                 </div>
@@ -3515,45 +3515,45 @@
                             <!-- Swiper -->
                             <div class="qty-product-cover">
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_1.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_1.jpg')}}"
                                         alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_2.jpg"
+                                    <img class="img-responsive" src={{asset('forntend/"assets/images/product-image/3_2.jpg')}}"
                                         alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_3.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_3.jpg')}}"
                                         alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_4.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_4.jpg')}}"
                                         alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_5.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_5.jpg')}}"
                                         alt="">
                                 </div>
                             </div>
                             <div class="qty-nav-thumb">
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_1.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_1.jpg')}}"
                                         alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_2.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_2.jpg')}}"
                                         alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_3.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_3.jpg')}}"
                                         alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_4.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_4.jpg')}}"
                                         alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/3_5.jpg"
+                                    <img class="img-responsive" src="{{asset('forntend/assets/images/product-image/3_5.jpg')}}"
                                         alt="">
                                 </div>
                             </div>
@@ -3632,7 +3632,7 @@
         <div id="ec-popnews-close"><i class="ecicon eci-close"></i></div>
         <div class="row">
             <div class="col-md-6 disp-no-767">
-                <img src="assets/images/banner/newsletter.png" alt="newsletter">
+                <img src="{{asset('forntend/assets/images/banner/newsletter.png')}}" alt="newsletter">
             </div>
             <div class="col-md-6">
                 <div id="ec-popnews-box-content">

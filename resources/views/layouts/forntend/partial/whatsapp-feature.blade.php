@@ -16,7 +16,7 @@
                         <div class="d-flex bd-highlight">
                             <!-- Profile Picture -->
                             <div class="ec-img-cont">
-                                <img src="assets/images/whatsapp/profile_01.jpg" class="ec-user-img"
+                                <img src="{{asset('forntend/assets/images/whatsapp/profile_01.jpg')}}" class="ec-user-img"
                                     alt="Profile image">
                                 <span class="ec-status-icon"></span>
                             </div>
@@ -40,7 +40,7 @@
                         <div class="d-flex bd-highlight">
                             <!-- Profile Picture -->
                             <div class="ec-img-cont">
-                                <img src="assets/images/whatsapp/profile_02.jpg" class="ec-user-img"
+                                <img src="{{asset('forntend/assets/images/whatsapp/profile_02.jpg')}}" class="ec-user-img"
                                     alt="Profile image">
                                 <span class="ec-status-icon ec-online"></span>
                             </div>
@@ -64,7 +64,7 @@
                         <div class="d-flex bd-highlight">
                             <!-- Profile Picture -->
                             <div class="ec-img-cont">
-                                <img src="assets/images/whatsapp/profile_03.jpg" class="ec-user-img"
+                                <img src="{{asset('forntend/assets/images/whatsapp/profile_03.jpg')}}" class="ec-user-img"
                                     alt="Profile image">
                                 <span class="ec-status-icon ec-offline"></span>
                             </div>
@@ -88,7 +88,7 @@
                         <div class="d-flex bd-highlight">
                             <!-- Profile Picture -->
                             <div class="ec-img-cont">
-                                <img src="assets/images/whatsapp/profile_04.jpg" class="ec-user-img"
+                                <img src="{{asset('forntend/assets/images/whatsapp/profile_04.jpg')}}" class="ec-user-img"
                                     alt="Profile image">
                                 <span class="ec-status-icon ec-offline"></span>
                             </div>
@@ -113,7 +113,7 @@
     <div class="ec-right-bottom">
         <div class="ec-box">
             <div class="ec-button rotateBackward">
-                <img class="whatsapp" src="assets/images/common/whatsapp.png" alt="whatsapp icon">
+                <img class="whatsapp" src="{{asset('forntend/assets/images/common/whatsapp.png')}}" alt="whatsapp icon">
             </div>
         </div>
     </div>

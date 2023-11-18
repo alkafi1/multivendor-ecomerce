@@ -11,7 +11,7 @@
                          <div class="ec-sb-block-content">
                              <ul>
                                  <li>
-                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/dress-8.png"
+                                     <div class="ec-sidebar-block-item"><img src="{{asset('forntend/assets/images/icons/dress-8.png')}}"
                                              class="svg_img" alt="drink" />Cothes</div>
                                      <ul style="display: block;">
                                          <li>
@@ -45,7 +45,7 @@
                          <div class="ec-sb-block-content">
                              <ul>
                                  <li>
-                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/shoes-8.png"
+                                     <div class="ec-sidebar-block-item"><img src="{{asset('forntend/assets/images/icons/shoes-8.png')}}"
                                              class="svg_img" alt="drink" />Footwear</div>
                                      <ul>
                                          <li>
@@ -79,7 +79,7 @@
                          <div class="ec-sb-block-content">
                              <ul>
                                  <li>
-                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/jewelry-8.png"
+                                     <div class="ec-sidebar-block-item"><img src="{{asset('forntend/assets/images/icons/jewelry-8.png')}}"
                                              class="svg_img" alt="drink" />jewelry</div>
                                      <ul>
                                          <li>
@@ -107,7 +107,7 @@
                          <div class="ec-sb-block-content">
                              <ul>
                                  <li>
-                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/perfume-8.png"
+                                     <div class="ec-sidebar-block-item"><img src="{{asset('forntend/assets/images/icons/perfume-8.png')}}"
                                              class="svg_img" alt="drink" />perfume</div>
                                      <ul>
                                          <li>
@@ -140,7 +140,7 @@
                          <div class="ec-sb-block-content">
                              <ul>
                                  <li>
-                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/cosmetics-8.png"
+                                     <div class="ec-sidebar-block-item"><img src="{{asset('forntend/assets/images/icons/cosmetics-8.png')}}"
                                              class="svg_img" alt="drink" />cosmetics</div>
                                      <ul>
                                          <li>
@@ -173,7 +173,7 @@
                          <div class="ec-sb-block-content">
                              <ul>
                                  <li>
-                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/glasses-8.png"
+                                     <div class="ec-sidebar-block-item"><img src="{{asset('forntend/assets/images/icons/glasses-8.png')}}"
                                              class="svg_img" alt="drink" />glasses</div>
                                      <ul>
                                          <li>
@@ -195,7 +195,7 @@
                          <div class="ec-sb-block-content">
                              <ul>
                                  <li>
-                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/bag-8.png"
+                                     <div class="ec-sidebar-block-item"><img src="{{asset('forntend/assets/images/icons/bag-8.png')}}"
                                              class="svg_img" alt="drink" />bags</div>
                                      <ul>
                                          <li>
