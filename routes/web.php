@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\Setting\BuisnessSetupController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,12 +19,18 @@ use Illuminate\Support\Facades\Route;
 
 
 /* ----------Admin Route start----------- */
-Route::prefix('admin')->group(function(){
-    Route::get('/',[LoginController::class,'login_index'])->name('admin.login');
-    Route::post('/login',[LoginController::class,'admin_login_post'])->name('admin.login.post');
-    Route::middleware(['admin'])->group(function(){
-        Route::get('/login',[LoginController::class,'admin_logout'])->name('admin.logout');
-        Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('admin.dashboard');
+
+Route::prefix('admin')->group(function () {
+    Route::get('/', [LoginController::class, 'login_index'])->name('admin.login');
+    Route::post('/login', [LoginController::class, 'admin_login_post'])->name('admin.login.post');
+
+    Route::middleware(['admin'])->group(function () {
+        Route::get('/login', [LoginController::class, 'admin_logout'])->name('admin.logout');
+        Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
+
+        Route::prefix('setting')->group(function () {
+            Route::get('/buisness/setup', [BuisnessSetupController::class, 'buisness_setup'])->name('buisness.setup');
+        });
     });
 });
 
@@ -46,4 +53,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

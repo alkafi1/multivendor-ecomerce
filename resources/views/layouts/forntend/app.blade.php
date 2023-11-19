@@ -38,14 +38,14 @@
  </head>
  
  <body>
-     <div id="ec-overlay">
+     {{-- <div id="ec-overlay">
          <div class="ec-ellipsis">
              <div></div>
              <div></div>
              <div></div>
              <div></div>
          </div>
-     </div>
+     </div> --}}
      <!-- Header start  -->
      @include('layouts.forntend.partial.header')
      <!-- Header End  -->

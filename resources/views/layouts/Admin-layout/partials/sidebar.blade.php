@@ -8,8 +8,8 @@
                 <button class="nav-link @if (Route::currentRouteName() == 'admin.dashboard') active @endif" data-bs-toggle="pill"
                     data-bs-target="#pills-dashboards" type="button"><i class="bi bi-house-door-fill"></i></button>
             </li>
-            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Application">
-                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-application" type="button"><i
+            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Buisness Setting">
+                <button class="nav-link @if (Route::currentRouteName() == 'admin') active @endif" data-bs-toggle="pill" data-bs-target="#pills-setting" type="button"><i
                         class="bi bi-grid-fill"></i></button>
             </li>
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Widgets">
@@ -87,22 +87,15 @@
                     
                 </div>
             </div>
-            <div class="tab-pane fade" id="pills-application">
+            <div class="tab-pane fade @if (Route::currentRouteName() == 'admin')  active show @endif" id="pills-setting">
                 <div class="list-group list-group-flush">
                     <div class="list-group-item">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-0">Application</h5>
+                            <h5 class="mb-0">System Setting</h5>
                         </div>
-                        <small class="mb-0">Some placeholder content</small>
                     </div>
-                    <a href="app-emailbox.html" class="list-group-item"><i class="bi bi-envelope"></i>Email</a>
-                    <a href="app-chat-box.html" class="list-group-item"><i class="bi bi-chat-left-text"></i>Chat
-                        Box</a>
-                    <a href="app-file-manager.html" class="list-group-item"><i class="bi bi-archive"></i>File
-                        Manager</a>
-                    <a href="app-to-do.html" class="list-group-item"><i class="bi bi-check2-square"></i>Todo
-                        List</a>
-                    <a href="app-invoice.html" class="list-group-item"><i class="bi bi-receipt"></i>Invoice</a>
+                    <a href="{{route('buisness.setup')}}" class="list-group-item"><i class="bi bi-envelope"></i>Buisness Setup</a>
+                    
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-widgets">
